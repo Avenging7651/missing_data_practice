@@ -49,3 +49,5 @@ po/*~
 rsconnect/
 
 .vscode
+欠測データ処理.Rproj
+欠損値（欠測値）を含むデータのmultivariate normal maximum-likelihood estimation、つまり多変量正規分布の平均ベクトルと共分散行列の最尤推定値の計算をRで行う方法のメモ - 備忘ログ.desktop
