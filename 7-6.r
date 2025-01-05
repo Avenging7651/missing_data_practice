@@ -8,7 +8,7 @@ max1 <- emResult$iter * 2
 imp.list <- as.list(NULL)
 for (j in 1:M) {
   mcmcResult <- mcmcNorm(emResult, iter = max1)
-  imp[[j]] <- impNorm(mcmcResult)
+  imp.list[[j]] <- impNorm(mcmcResult)
 }
 n <- nrow(df1)
 Q <- rep(NA, M)
