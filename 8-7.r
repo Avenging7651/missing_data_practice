@@ -1,4 +1,3 @@
-# VIFによる多重共線性の診断
 library(car)
 library(Amelia)
 library(tidyverse)
